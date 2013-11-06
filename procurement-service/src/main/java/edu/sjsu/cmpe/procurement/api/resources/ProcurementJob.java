@@ -30,7 +30,7 @@ import org.json.simple.parser.ParseException;
 import de.spinscale.dropwizard.jobs.Job;
 import de.spinscale.dropwizard.jobs.annotations.Every;
 
-@Every("15s")
+@Every("300s")
 public class ProcurementJob extends Job
 {
 	
