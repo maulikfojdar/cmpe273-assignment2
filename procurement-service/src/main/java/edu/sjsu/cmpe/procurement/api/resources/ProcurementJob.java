@@ -56,7 +56,7 @@ public class ProcurementJob extends Job
 		 try {
 			object.Publisher();
 			System.out.println("consuming from publisher");
-		} catch (ParseException | JMSException e) {
+		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
